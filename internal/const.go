@@ -1,7 +1,7 @@
 package internal
 
 const (
-	ComponentsDir = "components"
+	ComponentsDir = "base/components"
 	ClustersDir   = "management-clusters"
 
 	DefaultClusterName = "default"
