@@ -13,9 +13,9 @@ Before using GitOps Helper, ensure you have the following:
 - The templated repository of the [k0rdent-gitops](https://github.com/Mirantis-PS/k0rdent-fluxcd-template/) repository checked out locally
 
 ## Usage
-To create a managed cluster configuration, run the following command from within the checked out GitOps repository
+To create a managed cluster configuration, you need to
 
-1.
+1. Run the gitops-helper tool using Docker
     ```sh
     docker run -it -v $(pwd):/repo ghcr.io/mirantis-ps/gitops-helper:main create managed-cluster
     ```
